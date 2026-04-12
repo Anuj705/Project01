@@ -1,3 +1,6 @@
-*{
-     
+body[theme="black"]{
+     background-color: #000;
+}
+body[theme="white"]{
+     background-color: white;
 }
