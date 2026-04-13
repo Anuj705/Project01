@@ -1,3 +1,7 @@
+*::selection{
+    background-color: #EF9D71; 
+}
+
 body[theme="black"]{
      background-color: #000;
 }
@@ -26,40 +30,4 @@ body[theme="salmon"]{
      color: rgb(67, 22, 17);
 }
 
-      <div class="row -translate-x-1/6 w-fit py-5 flex items-center gap-10 whitespace-nowrap">
-                    <div class="elem flex items-center gap-10">
-                              <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
-                         <div class="imgdiv w-[3rem] h-[3rem] rounded-full bg-yellow-500"></div>
-                    </div>
-                    <div class="elem flex items-center gap-10 ">
-                              <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">inclusive</h1>
-                         <div class="imgdiv w-[3rem] h-[3rem] rounded-full bg-yellow-500"></div>
-                    </div>
-                    <div class="elem flex items-center gap-10">
-                              <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">intuitive</h1>
-                         <div class="imgdiv w-[3rem] h-[3rem] rounded-full bg-yellow-500"></div>
-                    </div>
-                    <div class="elem flex items-center gap-10">
-                              <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">elegant</h1>
-                         <div class="imgdiv w-[3rem] h-[3rem] rounded-full bg-yellow-500"></div>
-                    </div>
-                    </div>
-
-                       <div class="row -translate-x-1/6 w-fit py-5 flex items-center gap-10 whitespace-nowrap">
-                    <div class="elem flex items-center gap-10">
-                              <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
-                         <div class="imgdiv w-[3rem] h-[3rem] rounded-full bg-yellow-500"></div>
-                    </div>
-                    <div class="elem flex items-center gap-10 ">
-                              <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">inclusive</h1>
-                         <div class="imgdiv w-[3rem] h-[3rem] rounded-full bg-yellow-500"></div>
-                    </div>
-                    <div class="elem flex items-center gap-10">
-                              <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">intuitive</h1>
-                         <div class="imgdiv w-[3rem] h-[3rem] rounded-full bg-yellow-500"></div>
-                    </div>
-                    <div class="elem flex items-center gap-10">
-                              <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">elegant</h1>
-                         <div class="imgdiv w-[3rem] h-[3rem] rounded-full bg-yellow-500"></div>
-                    </div>
-                    </div>
+     
