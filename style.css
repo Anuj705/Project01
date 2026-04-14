@@ -1,33 +1,45 @@
+:root{
+     --salmon: #EF9D71; 
+     --black: black;
+     --white: white;
+     --cyan: cyan;
+     --dsalmon: #532521;
+     --dcyan: #1f2f32;
+}
+
+
+
 *::selection{
-    background-color: #EF9D71; 
+    background-color: var(--salmon); 
 }
 
 body[theme="black"]{
-     background-color: #000;
+     background-color: var(--black);
 }
 body[theme="black"]{
-     color: #fff;
+     color: var(--white);
 } 
 
 body[theme="cyan"]{
-     background-color: cyan;
+     background-color: var(--cyan);
 }
-body[theme="cyan"] {
-     color: #1b2e33;
+
+body[theme="cyan"]{
+     color: var(--dcyan);
 } 
 
 body[theme="white"]{
-     background-color: white;
+     background-color: var(--white);
 }
 body[theme="white"]{
-     color: black;
+     color: var(--black);
 }
 
 body[theme="salmon"]{
-     background-color: salmon;
+     background-color: var(--salmon);
 }
 body[theme="salmon"]{
-     color: rgb(67, 22, 17);
+     color: var(--salmon);
 }
 
      
