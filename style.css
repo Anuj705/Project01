@@ -16,6 +16,7 @@
 body[theme="black"]{
      background-color: var(--black);
 }
+
 body[theme="black"]{
      color: var(--white);
 } 
@@ -38,6 +39,7 @@ body[theme="white"]{
 body[theme="salmon"]{
      background-color: var(--salmon);
 }
+
 body[theme="salmon"]{
      color: var(--dsalmon);
 }
