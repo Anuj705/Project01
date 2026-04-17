@@ -8,7 +8,7 @@
 }
 
 .vdodiv{
-     clip-path : circle(var(--clip) at 50% 50%);
+     clip-path: circle(var(--clip) at 50% 50%);
 }
 
 *::selection{
@@ -45,5 +45,8 @@ body[theme="salmon"]{
 body[theme="salmon"]{
      color: var(--dsalmon);
 }
+
+
+
 
      
