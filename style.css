@@ -2,11 +2,13 @@
      --salmon: #EF9D71; 
      --black: black;
      --white: white;
-     --cyan: cyan;
+     --cyan: rgba(150, 247, 247, 0.933);
      --dsalmon: #532521;
      --dcyan: #1f2f32;
 }
-
+body{
+     transition: background-color ease-out .5s;
+}
 .vdodiv{
      clip-path: circle(var(--clip) at 50% 50%);
 }

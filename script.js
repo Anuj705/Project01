@@ -96,7 +96,48 @@ gsap.to(".textpara span",{
 })
 }
 
+function loco(){
+     (function(){
+  const locomotiveScroll = new LocomotiveScroll();
+
+})();
+}
+
+function capsuleAnimation(){
+  gsap.to(".capsule:nth-child(2)",{
+     scrollTrigger :{
+          trigger: ".capsules",
+          start: "top 70%",
+          end: "bottom bottom",
+          markers: true,
+          scrub: 1
+     },
+     y: 0,
+     ease: Power4 
+  })
+}
+document.querySelectorAll(".section")
+.forEach(function(e){
+     ScrollTrigger.create({
+        trigger: e,
+        start: "top 50%",
+        end: "bottom 50%",
+        markers: true,
+        onEnter: function(){
+           document.body.setAttribute("theme", e.dataset.color);
+        },
+        onEnterBack: function(){
+             document.body.setAttribute("theme", e.dataset.color);
+        }
+        
+     })
+})     
+
+
+
+loco();
 paraAnimation();
 teaAnimation();
 realpageAnimation();
 homepageAnimation();
+capsuleAnimation();
